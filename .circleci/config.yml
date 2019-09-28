@@ -34,7 +34,7 @@ jobs:
                 command: |
                     source venv/bin/activate
                     pip install -r requirements.txt
-            -run:
+            - run:
                 name: Run test
                 command: |
                 source venv/bin/activate
