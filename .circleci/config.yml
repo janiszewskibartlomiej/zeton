@@ -39,3 +39,8 @@ jobs:
                 command: |
                     source venv/bin/activate
                     python pytest -s
+workflows:
+    version: 2
+    build_and_test:
+        jobs:
+            - build
